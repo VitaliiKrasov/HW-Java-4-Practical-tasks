@@ -22,7 +22,7 @@ public class weekDays{
         return String.format("The %1$s day of week is called:\n%2$s in English\n%3$s in Spanish\n%4$s in French",
                 day,
                 DayOfWeek.of(day),
-                spanishDayOfWeek.of(day),
-                frenchDayOfWeek.of(day));
+                SpanishDayOfWeek.of(day),
+                FrenchDayOfWeek.of(day));
     }
 }
