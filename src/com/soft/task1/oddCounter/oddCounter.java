@@ -1,7 +1,7 @@
 /**
-* HW4 Practical tasks1
-* Enter three numbers. Find out how many of them are odd.
-**/
+ * HW4 Practical tasks1
+ * Enter three numbers. Find out how many of them are odd.
+ */
 package com.soft.task1.oddCounter;
 
 import java.util.Scanner;

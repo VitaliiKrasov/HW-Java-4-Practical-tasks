@@ -2,7 +2,7 @@
  * HW4 Practical tasks2
  * Enter the number of the day of the week.
  * Display the name in three languages.
- **/
+ */
 
 package com.soft.task2.weekDays;
 
