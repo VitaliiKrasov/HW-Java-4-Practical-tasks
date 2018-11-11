@@ -8,18 +8,23 @@ import java.util.Scanner;
 
 public class oddCounter {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int count = 0;
-        for (int i = 0; i < 3; i++){
-
-            System.out.println("Enter integer");
-            if (scanner.nextInt() % 2 == 0) {
-                count++;
-            }
-
+        for (int i = 0; i < 3; i++) {
+            count();
         }
-
         System.out.println(count + " of them are odd");
+    }
+
+    static Scanner scanner = new Scanner(System.in);
+
+    public static int scanInt() {
+        System.out.println("Enter integer");
+        return scanner.nextInt();
+    }
+
+    static int count = 0;
+    private static void count() {
+        if (scanInt() % 2 == 0) {
+            count++;
+        }
     }
 }
